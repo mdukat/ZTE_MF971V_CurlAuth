@@ -11,4 +11,4 @@ pin_request="isTest=false&goformId=ENTER_PIN&PinNumber=$pin"
 #curl -X POST --header "Referer: http://192.168.0.1/index.html" --header "X-Requested-With: XMLHttpRequest" --data "$login_request" http://192.168.0.1/goform/goform_set_cmd_process
 
 # send PIN to authenticate
-curl -X POST --header "Referer: http://192.168.0.1/index.htX-Requested-With: XMLHttpRequest" --data "$pin_request" http://192.168.0.1/goform/goform_set_cmd_process
+curl -X POST --header "Referer: http://192.168.0.1/index.html" --header "X-Requested-With: XMLHttpRequest" --data "$pin_request" http://192.168.0.1/goform/goform_set_cmd_process
